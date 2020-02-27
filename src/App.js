@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import './App.css';
+import './styles/App.css';
 import teamMbrInfo from './components/teamMbrInfo';
 import TeamMbrs from './components/TeamMbrs';
+import Form from './Form';
 
 function App() {
   // const [newMbr, setNewMbr] = useState('');
@@ -39,6 +40,7 @@ function App() {
           email={teamMbrInfo[3].email}
           />
       </div>
+      <Form />
       <footer>
         <p>Copyright &copy; {new Date().getFullYear()} #AwesomeDevTeam. All Rights Reserved.</p>
       </footer>
