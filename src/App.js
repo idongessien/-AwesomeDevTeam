@@ -39,14 +39,14 @@ function App() {
     };
 
   return (
-    <div className="container">
+    <div className="app">
       <header>
         <h1>#AwesomeDevTeam</h1>
       </header>
-      <div className="">
+      <div className="body-items">
         <TeamMbrs newMember={newMember} />
-      </div>
       <Form addNewMember={addNewMember} />
+      </div>
       <footer>
         <p>Copyright &copy; {new Date().getFullYear()} #AwesomeDevTeam. All Rights Reserved.</p>
       </footer>

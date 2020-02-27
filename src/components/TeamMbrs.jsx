@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/TeamMbrs.css';
 
 const TeamMbrs = props => {
     return (
-        <div>
+        <div className="cards-cont">
             {props.newMember.map(noob => (
-                <div key={noob.id}>
+                <div className="cards" key={noob.id}>
                     <h2>{noob.name}</h2>
                     <p>{noob.email}</p>
                     <p>{noob.role}</p>

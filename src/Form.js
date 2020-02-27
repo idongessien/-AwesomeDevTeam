@@ -21,8 +21,8 @@ const Form = props => {
     };
 
     return (
-        <div>
-            <h3>Add New Team Member</h3>
+        <div className="form-sec">
+            <h3>Add a New Team Member</h3>
             <form onSubmit={submit}>
                 <input name="name"  type="text" placeholder="First name..." onChange={handleInput} value={noob.name} />
 

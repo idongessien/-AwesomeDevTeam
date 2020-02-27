@@ -1,0 +1,50 @@
+.form-sec {
+    background: rgba(0,0,0,0.3);
+    padding: 3%;
+}
+
+.form-sec, h3, form {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+    color: rgba(80, 180, 169, 1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+input, button {
+    margin: 1%;
+    width: 40%;
+    font-size: 1.3rem;
+    padding: 1%;
+    font-weight: 200;
+    border: none;
+    border-radius: 6px;
+}
+
+input:hover {
+    filter: drop-shadow(2px 2px 6px rgba(80, 180, 169, 1));
+}
+
+button {
+    margin: 4% 0 0;
+    width: 30%;
+    padding: 2%;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgba(80, 180, 169, 0.6);
+}
+
+button:hover {
+    background: rgba(80, 180, 169, 1);
+}
