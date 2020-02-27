@@ -1,0 +1,96 @@
+[{
+    "name": "Idong",
+    "position": "Striker",
+    "height": "5ft. 8in.",
+    "weight": "220lbs",
+    "number": "10",
+    "years": "5"
+},
+{
+    "name": "Olu",
+    "position": "Striker",
+    "height": "6ft. 2in.",
+    "weight": "230lbs",
+    "number": "11",
+    "years": "1"
+},
+{
+    "name": "Badmus",
+    "position": "Midfield",
+    "height": "5ft. 6in.",
+    "weight": "200lbs",
+    "number": "20",
+    "years": "2"
+},
+{
+    "name": "Badu",
+    "position": "Defense",
+    "height": "5ft. 6in.",
+    "weight": "180lbs",
+    "number": "30",
+    "years": "4"
+},
+{
+    "name": "Wizzy",
+    "position": "Midfield",
+    "height": "5ft. 8in.",
+    "weight": "200lbs",
+    "number": "33",
+    "years": "5"
+},
+{
+    "name": "Essien",
+    "position": "Goal Keeper",
+    "height": "5ft. 3in.",
+    "weight": "190lbs",
+    "number": "24",
+    "years": "5"
+},
+{
+    "name": "Opoku",
+    "position": "Midfield",
+    "height": "5ft. 5in.",
+    "weight": "170lbs",
+    "number": "6",
+    "years": "2"
+},
+{
+    "name": "Otu",
+    "position": "Defense",
+    "height": "5ft. 7in.",
+    "weight": "190lbs",
+    "number": "18",
+    "years": "3"
+},
+{
+    "name": "Akan",
+    "position": "Defense",
+    "height": "5ft. 8in.",
+    "weight": "210lbs",
+    "number": "25",
+    "years": "8"
+},
+{
+    "name": "Etop",
+    "position": "Goalie",
+    "height": "6ft. 0in.",
+    "weight": "198lbs",
+    "number": "38",
+    "years": "7"
+},
+{
+    "name": "Alamu",
+    "position": "Midfield",
+    "height": "4ft. 9in.",
+    "weight": "160lbs",
+    "number": "7",
+    "years": "6"
+},
+{
+    "name": "Edem",
+    "position": "Striker",
+    "height": "5ft. 9in.",
+    "weight": "175lbs",
+    "number": "2",
+    "years": "3"
+}]
