@@ -1,0 +1,48 @@
+.app {
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+    filter: drop-shadow(10px 10px 10px gray);
+    border-radius: 15px;
+    text-align: center;
+}
+
+header, h1 {
+    border-radius: 15px 15px 0 0 ;
+}
+
+header {
+    background-image: url("../imgs/annie-spratt-MChSQHxGZrQ-unsplash.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+
+h1 {
+    background: rgba(0,0,0,0.5);
+    padding: 15% 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    letter-spacing: -8px;
+    margin:0;
+}
+
+.body-items {
+    margin:0;
+}
+
+footer {
+    padding: 5% 0 2%;
+    color: white;
+    background: black;
+    border-radius: 0 0 15px 15px;
+
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+}

@@ -1,0 +1,43 @@
+.cards-cont {
+    background: black;
+    margin:0;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background: whitesmoke;
+    width: 40%;
+    margin: 2%;
+    border-radius: 8px;
+    padding: 3%;
+}
+
+h2, p {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    background: black;
+    color: white;
+    padding: 2%;
+    border-radius: 90px;
+    border: 1px solid white;
+    position: relative;
+    bottom: 2%;
+    margin: 0 auto 4%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    font-weight: 200;
+}
+
+p:nth-of-type(2) {
+    font-weight: 800;
+}
