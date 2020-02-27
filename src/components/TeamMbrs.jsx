@@ -1,11 +1,15 @@
 import React from 'react';
 
-function TeamMbrs(props) {
+const TeamMbrs = props => {
     return (
         <div>
-            <h2>{props.name}</h2>
-            <p>{props.role}</p>
-            <p>{props.email}</p>
+            {props.newMember.map(noob => (
+                <div key={noob.id}>
+                    <h2>{noob.name}</h2>
+                    <p>{noob.email}</p>
+                    <p>{noob.role}</p>
+                </div>
+            ))}
         </div>
     );
 }

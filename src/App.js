@@ -1,14 +1,42 @@
 import React, { useState } from 'react';
 import './styles/App.css';
-import teamMbrInfo from './components/teamMbrInfo';
 import TeamMbrs from './components/TeamMbrs';
 import Form from './Form';
 
 function App() {
-  // const [newMbr, setNewMbr] = useState('');
-  // const addNewMbr = newTeamMbr => {
-  //   setNewMbr([...newMbr, newTeamMbr]);
-  // };
+  const [newMember, setNewMember] = useState([
+    {
+      id: 0,
+      name: "Idong",
+      role: "Software Developer",
+      email: "idong@gmail.com",
+    },
+    {
+      name: "Josephus",
+      role: "iOS Developer",
+      email:"joey@gmail.com",
+  },
+  {
+      name: "Milly",
+      role: "Project Manager",
+      email: "millicent@gmail.com",
+  },
+  {
+      name: "Beth",
+      role: "UI/UX Developer",
+      email: "beth@gmail.com",
+  }
+  ]);
+
+    const addNewMember = newMbr => {
+        const newbieMember = {
+            id: Date.now(),
+            name: newMbr.name,
+            email: newMbr.email,
+            role: newMbr.role
+        };
+        setNewMember([...newMember, newbieMember]);
+    };
 
   return (
     <div className="container">
@@ -16,31 +44,9 @@ function App() {
         <h1>#AwesomeDevTeam</h1>
       </header>
       <div className="">
-        <TeamMbrs 
-          name={teamMbrInfo[0].name}
-          role={teamMbrInfo[0].role}
-          email={teamMbrInfo[0].email}
-           />
-
-        <TeamMbrs 
-          name={teamMbrInfo[1].name}
-          role={teamMbrInfo[1].role}
-          email={teamMbrInfo[1].email}
-          />
-
-        <TeamMbrs 
-          name={teamMbrInfo[2].name}
-          role={teamMbrInfo[2].role}
-          email={teamMbrInfo[2].email}
-          />
-
-        <TeamMbrs 
-          name={teamMbrInfo[3].name}
-          role={teamMbrInfo[3].role}
-          email={teamMbrInfo[3].email}
-          />
+        <TeamMbrs newMember={newMember} />
       </div>
-      <Form />
+      <Form addNewMember={addNewMember} />
       <footer>
         <p>Copyright &copy; {new Date().getFullYear()} #AwesomeDevTeam. All Rights Reserved.</p>
       </footer>
